@@ -8,8 +8,11 @@
 
 #import <Cocoa/Cocoa.h>
 
+#import "MidiProxy.h"
+
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
+@property (retain) MidiProxy* proxy;
 
 @end

@@ -13,6 +13,7 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     // Insert code here to initialize your application
+    self.proxy = [[MidiProxy alloc] initWithEndPointName:@"EndpointA" andOtherEndpointName:@"endPointB"];
 }
 
 @end
